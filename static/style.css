@@ -1,0 +1,58 @@
+:root {
+  color-scheme: light;
+  font: 16px system-ui, sans-serif;
+  color: #182230;
+  background: #f4f7fb;
+}
+
+body {
+  margin: 0;
+  padding: 32px;
+}
+
+main {
+  max-width: 760px;
+  margin: auto;
+  padding: 28px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 8px 28px #1c35501a;
+}
+
+h1 { margin-top: 0; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 14px;
+}
+
+label { display: grid; gap: 6px; font-size: 14px; }
+
+input {
+  padding: 10px;
+  border: 1px solid #bcc8d6;
+  border-radius: 8px;
+  font: inherit;
+}
+
+button {
+  margin-top: 18px;
+  padding: 12px 18px;
+  border: 0;
+  border-radius: 8px;
+  background: #1458a6;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+.result {
+  margin: 18px 0;
+  padding: 14px;
+  border-radius: 8px;
+  background: #e9f4ff;
+  font-weight: 650;
+}
+
+.note { color: #526171; font-size: 14px; line-height: 1.5; }

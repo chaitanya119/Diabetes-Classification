@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+instance/
+.pytest_cache/
+app-run.log
+app-error.log
+
+# Local credentials and Windows metadata
+*.pem
+desktop.ini
